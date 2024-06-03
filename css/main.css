@@ -2606,7 +2606,7 @@ footer .copyright span:last-child::after {
  */
 #documentacion {
 	text-align: center;
-	padding: 12rem;
+	padding: 12rem 0;
 
 	h5 {
 		color: #FF0077;
