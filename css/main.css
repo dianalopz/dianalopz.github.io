@@ -70,7 +70,6 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
 	font-family: 'Inter', serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -1020,10 +1019,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #E4E9F1;
-}
-.grey-section p.lead {
-	color: #7d7d7d;
+	background: #ebebeb;
 }
 .section-intro {
 	max-width: 700px;
@@ -1407,7 +1403,7 @@ header .logo a {
 	width: 100%;
 	left: 0;
 	bottom: 7.2rem;
-	font-size: 3.3rem;
+	font-size: 4rem;
 	margin: 0;
 	padding: 0;
 }
@@ -1562,7 +1558,7 @@ header .logo a {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: 320px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
@@ -2601,3 +2597,38 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/** 
+ * ===================================================================
+ * documentacion
+ *
+ * ------------------------------------------------------------------- 
+ */
+#documentacion {
+	text-align: center;
+	padding: 12rem;
+
+	h5 {
+		color: #FF0077;
+	}
+	p, ul, li, strong {
+		font-family: 'Inter', serif;
+		font-size: 2rem;
+		line-height: 1.8;
+		color: #000000;
+		text-align: left;
+	}
+	.categories {
+		font-family: 'Inter', sans-serif;
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		text-transform: uppercase;
+		letter-spacing: .1rem;
+		display: block;
+		text-align: left;
+		color: #626262;
+	}
+} 
+#sect {
+	padding-bottom: 5rem;
+}
