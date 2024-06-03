@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Diana López - Dashboard Envios</title>
+	<meta name="description" content="Product designer">  
+	<meta name="author" content="DL">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- Inter font
+   ================================================== -->
+   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+   <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body id="top">
+
+	<!-- btns 
+   ================================================== -->
+    <div class="row button-section">
+		<div class="col-twelve">
+			<a href="index.html#portfolio" title="Regresar" class="button button-primary" style="float: left;"><i class="fa fa-angle-left" aria-hidden="true"></i>  Regresar</a>
+			<a href="" title="Siguiente" class="button button-primary" style="float: right; background: #FF0077;">Ver siguiente proyecto  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		</div>
+	</div>
+   <!-- /btns -->
+
+
+   <!-- documentacion section
+   ================================================== -->
+   <section id="documentacion">
+
+   	<div class="row">
+		<!-- Descripción-->
+   		<div id="sect" class="col-twelve">
+   			<h5>Aplicación para mensajeros</h5>
+   			<h1>Descripción.</h1>
+   			<div class="intro-info">
+   				<img src="images/portfolio/modals/app.png" alt="App mensajero" style="width: 45%;">
+   				<p style="padding-top: 5rem;">Desarrollar una aplicación móvil para una empresa de envíos que permita a los mensajeros gestionar sus pedidos, optimizar rutas, agilizar el proceso de reclutamiento y acceder a información personal y de ganancias.</p>
+				<p class="categories"><i class="fa fa-tag" aria-hidden="true"></i> Metodologia empleada: Doble Diamante</p>
+   			</div>
+			
+   		</div>
+		<!-- 1. Descubrir - Usuarios -->
+		<div id="sect" class="col-twelve">
+			<h5>1. Descubrir</h5>
+			<h1>Identificar las necesidades de los mensajeros y la empresa.</h1>
+   			<div class="intro-info">
+				<p style="text-align: center;">Platicamos con stakeholders para entender la necesidades de la aplicación, realizamos entrevistas con mensajeros actuales para comprender sus desafíos y necesidades, los acompañamos durante su jornada laboral para observar su flujo de trabajo y dificultades y finalmente distribuimos una encuestas para obtener datos cuantitativos sobre problemas comunes y necesidades.</p>
+				<!-- <img src="images/portfolio/modals/serviceblueprint.png" alt="Service blue print logistica envios" style="width: 70%; float: none;">
+				<p class="categories" style="text-align: center; margin-bottom: 5rem;">Service Blueprint de servicio de logística para despachar un envío en bodega.</p> -->
+				<h5>Hallazgos</h5>
+				<ol>
+					<li>El 100% de los mensajeros utiliza telefono celular con sistema operativo android.</li>
+					<li>La empresa necesita una solución para agilizar el proceso de reclutamiento.</li>
+					<li>Los mensajeros necesitan recibir feedback sobre su proceso de reclutamiento y saber en qué paso se encuentran.</li>
+					<li>Los mensajeros prefieren recibir tareas solo en un horario establecido.</li>
+					<li>Es importante visualizar la ruta de trabajo y la cantidad de paquetes a entregar dependiendo del vehiculo que seleccionen (bicicleta o carro).</li>
+					<li>Para la empresa y los mensajeros es importante visualizar cuanto se ganará por cada entrega realizada.</li>
+					<li>Es importante distinguir a simple vista las entregas y recolectas de pedidos.</li>
+					<li>Realizar un registro de la entrega es de suma importancia para los mensajeros, empresa y clientes finales.</li>
+					<li>En caso de que un paquete no pueda ser entregado, es importante que el mensajero pueda marcar la entrega como fallida para poder continuar con su ruta de trabajo.</li>
+					<li>Los mensajeros y la empresa necesitan tener un historial de pedidos y ganancias.</li>
+				</ol>
+				<!-- <img src="images/portfolio/modals/Benchmark.png" alt="Benchmark" style="width: 70%; float: none;">
+				<p class="categories" style="text-align: center; margin-bottom: 5rem;">Benchmark de principales competidores.</p> -->
+   			</div>
+		</div>
+		<!-- 2. Definir - Problema -->
+		<div id="sect" class="col-twelve">
+			<h5>2. Definir</h5>
+			<h1>Problema.</h1>
+   			<div class="intro-info">
+				<!-- <p>La empresa comenzó realizando envíos a través de WhatsApp; posteriormente, tercerizó una aplicación que permitió a sus usuarios solicitar envíos mediante un formulario, lo que ha generado los siguientes problemas urgentes:</p>
+				<ul>
+					<li>Los negocios con un gran volumen de envíos pierden mucho tiempo al solicitarlos manualmente mediante un formulario.</li>
+					<li>Los usuarios tienen dificultades con la facturación de los servicios de envío y la consulta de su saldo.</li>
+					<li>Los clientes finales enfrentan problemas al no poder rastrear sus envíos, realizar cambios en su dirección, programar la entrega de sus pedidos o comunicarse con su mensajero para coordinar la entrega.</li>
+					<li>Es necesario ofrecer y visualizar el servicio de logística a los clientes con un alto volumen de envíos.</li>
+				</ul> -->
+				<div class="grey-section" style="padding: 2rem; border-radius: 1rem;">
+					<!-- <h5>Problema central</h5> -->
+					<p style="text-align: center;">Los mensajeros necesitan una forma más eficiente de gestionar sus pedidos y rutas, mientras que la empresa necesita un sistema para agilizar el reclutamiento y monitorear el rendimiento.</p>
+				</div>
+   			</div>
+   		</div>
+		<!-- 3. Desarrollar - Diseño visual -->
+		<div id="sect" class="col-twelve">
+   			<div class="intro-info">
+				<h5>3. Desarrollar</h5>
+				<h1>Diseño Visual.</h1>
+				<p>Realizamos sesiones de brainstorming con el equipo para generar ideas de funciones y características de la app para posteriormente crear prototipo de alta fidelidad en Figma para probar con los mensajeros.</p>
+				<!-- Onboarding -->
+				<p class="categories" style="text-align: center; margin-top: 5rem;">Proceso de reclutamineto de mensajeros</p>
+				<div style="display: flex;">
+					<img src="images/portfolio/modals/registro.png" alt="registro" style="width: 25%; height: auto;">
+					<img src="images/portfolio/modals/vehiculo.png" alt="vehiculo" style="width: 25%; height: auto;">
+					<img src="images/portfolio/modals/documentos.png" alt="documentos" style="width: 25%;">
+					<img src="images/portfolio/modals/aprobacion.png" alt="registro" style="width: 25%;">
+				</div>
+				<!-- Mapa -->
+				<p class="categories" style="text-align: center; margin-top: 5rem;">Mapa con ruta y tareas</p>
+				<div style="display: flex;">
+					<img src="images/portfolio/modals/inicioapp.png" alt="inicio" style="width: 33%;">
+					<img src="images/portfolio/modals/mapa.png" alt="mapa" style="width: 33%;">
+					<img src="images/portfolio/modals/detallestarea.png" alt="detalles" style="width: 33%;">
+				</div>
+				<!-- Entrega -->
+				<p class="categories" style="text-align: center; margin-top: 5rem;">Flujo para entrega de tareas</p>
+				<div style="display: flex;">
+					<img src="images/portfolio/modals/tareainiciada.png" alt="tarea" style="width: 15%;">
+					<img src="images/portfolio/modals/escanear.png" alt="escaneo" style="width: 15%;">
+					<img src="images/portfolio/modals/foto.png" alt="foto" style="width: 15%;">
+					<img src="images/portfolio/modals/recibe.png" alt="recibe" style="width: 15%;">
+					<img src="images/portfolio/modals/notas.png" alt="notas" style="width: 15%;">
+					<img src="images/portfolio/modals/confirmación.png" alt="confirmación" style="width: 15%;">
+				</div>
+				<!-- Intento fallido -->
+				<p class="categories" style="text-align: center; margin-top: 5rem;">Flujo para registrar intento fallido de entrega</p>
+				<div style="display: flex;">
+					<img src="images/portfolio/modals/problema.png" alt="problema para entregar" style="width: 33%;">
+					<img src="images/portfolio/modals/evidencia.png" alt="evidencia" style="width: 33%;">
+					<img src="images/portfolio/modals/registrofallido.png" alt="registro fallido" style="width: 33%;">
+				</div>
+				<!-- Perfil historial y ganancias -->
+				<p class="categories" style="text-align: center; margin-top: 5rem;">Perfil de mensajero, historial de tareas y registro de ganancias</p>
+				<div style="display: flex;">
+					<img src="images/portfolio/modals/Perfil.png" alt="Perfil" style="width: 25%;">
+					<img src="images/portfolio/modals/historial.png" alt="Historial" style="width: 25%;">
+					<img src="images/portfolio/modals/resumen.png" alt="Perfil" style="width: 25%;">
+					<img src="images/portfolio/modals/semana.png" alt="Perfil" style="width: 25%;">
+				</div>
+   			</div>
+		</div>
+		<!-- 4. Entregar - Momentos clave -->
+		<div id="sect" class="col-twelve">
+			<h5>4. Entregar</h5>
+			<h1>Implementar y lanzar la solución final.</h1>
+   			<div class="intro-info">
+				<p>Colaboramos con los desarrolladores para transformar los prototipos en una aplicación funcional, realizamos pruebas exhaustivas de la app para asegurar que todas las funciones funcionan correctamente y sin errores y desplegamos la aplicación en la tiendas de aplicaciones.</p>
+   			</div>
+		</div>
+		<!-- Conclusiones - Retrospectiva -->
+		<div id="sect" class="col-twelve">
+   			<div class="intro-info">
+				<h5>Conclusiones</h5>
+				<p style="text-align: center;">La aplicación mejora significativamente la eficiencia en la gestión de pedidos y rutas. El proceso de reclutamiento se agilizó y la empresa tiene una mejor visibilidad del rendimiento de los mensajeros.</p>
+				<p style="text-align: center;">La metodología del Doble Diamante permitió una comprensión profunda de las necesidades de los mensajeros y de la empresa, lo que resultó en una aplicación eficiente y centrada en el usuario. La colaboración constante con los usuarios durante el proceso garantizó que la solución final fuera práctica y valiosa para todos los involucrados.</p>
+   			</div>
+		</div>
+   	</div>
+
+   </section> <!-- /process-->
+
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contacto</h5>
+   			<h1>Me encantaría saber pronto de ti </h1>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form 
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Nombre" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Teléfono" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="Mensaje" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Enviar</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Enviando...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Donde encontrarme</h5>
+
+   			<p style="color: white;">
+            Cuautitlán izcalli,<br>
+            Estado de México<br>
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>E-mail</h5>
+
+   			<p style="color: white;">dlopezr1313@gmail.com<br>		     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Llámame a</h5>
+
+   			<p style="color: white;"> Celular: (55) 8055 7367</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
